@@ -1,6 +1,3 @@
-<div style="width:1000px;
-margin:0 auto;">
-
 # Introduction
 
 This library provides gesture detection functionality using almost exclusively the IMU data of the Myo Armband.
@@ -49,20 +46,31 @@ and Arm Rotation. Every type has two opposites:
 
 These images show a demonstration of the gestures above:
 
-<table border="0">
 
-<tr><td>Horizontal:</td></tr>
-<tr><td><img style="padding: 20px;width:66.66%;" src="extras/Documentation/images/right.gif"><td></td><img style="padding: 20px;" src="extras/Documentation/images/left.gif"></td></tr>
+### Horizontal:
 
-<tr><td>Vertical:</td></tr>
-<tr><td><img style="padding: 20px;" src="extras/Documentation/images/up.gif"><td></td><img style="padding: 20px;" src="extras/Documentation/images/down.gif"></td></tr>
+| Subtype 1 | Subtype 2 |
+|-----------|-----------|
+| ![](extras/Documentation/images/right.gif) | ![](extras/Documentation/images/left.gif) |
 
-<tr><td>Circular:</td></tr>
-<tr><td><img style="padding: 20px;" src="extras/Documentation/images/circle_cw.gif"><td></td><img style="padding: 20px;" src="extras/Documentation/images/circle_ccw.gif"></td></tr>
+### Vertical:
 
-<tr><td>Rotate Arm:</td></tr>
-<tr><td><img style="padding: 20px;" src="extras/Documentation/images/rotate_cw.gif"><td></td><img style="padding: 20px;" src="extras/Documentation/images/rotate_ccw.gif"></td></tr>
-</table>
+| Subtype 1 | Subtype 2 |
+|-----------|-----------|
+| ![](extras/Documentation/images/up.gif) | ![](extras/Documentation/images/down.gif) |
+
+### Circular:
+
+| Subtype 1 | Subtype 2 |
+|-----------|-----------|
+| ![](extras/Documentation/images/circle_cw.gif) | ![](extras/Documentation/images/circle_ccw.gif) |
+
+### Rotate Arm:
+
+| Subtype 1 | Subtype 2 |
+|-----------|-----------|
+| ![](extras/Documentation/images/rotate_cw.gif) | ![](extras/Documentation/images/rotate_ccw.gif) |
+
 
 ## Using the Library for your Sketch
 
@@ -184,4 +192,3 @@ They are used to test the straight movement conditions:
  * Y deviation greater than X deviation and relation of deviations smaller than `STRAIGHT_MAX_RELATION`? -> Vertical movement
 
 If no gestures are recognized in this step, the gesture is not recognizable, and thus `ARM_UNKNOWN`.
- </div>
