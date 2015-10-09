@@ -20,7 +20,7 @@ after program startup. After that long vibration, perform a *strong* gesture wit
 **But what is a strong gesture?** Generally, any gesture that involves movement against
 a force works. This could be a wrist flex, a fist or waving in any direction:
 
-![](../images/gestures_small.png)
+![](extras/Documentation/images/gestures_small.png)
 
 Hold this gesture for a short time. A short vibration will indicate the end of this procedure.
 You can now lock or unlock the gesture detection with this gesture.
@@ -52,16 +52,16 @@ These images show a demonstration of the gestures above:
 <table border="0">
 
 <tr><td>Horizontal:</td></tr>
-<tr><td><img style="padding: 20px;width:66.66%;" src="../images/right.gif"><td></td><img style="padding: 20px;" src="../images/left.gif"></td></tr>
+<tr><td><img style="padding: 20px;width:66.66%;" src="extras/Documentation/images/right.gif"><td></td><img style="padding: 20px;" src="extras/Documentation/images/left.gif"></td></tr>
 
 <tr><td>Vertical:</td></tr>
-<tr><td><img style="padding: 20px;" src="../images/up.gif"><td></td><img style="padding: 20px;" src="../images/down.gif"></td></tr>
+<tr><td><img style="padding: 20px;" src="extras/Documentation/images/up.gif"><td></td><img style="padding: 20px;" src="extras/Documentation/images/down.gif"></td></tr>
 
 <tr><td>Circular:</td></tr>
-<tr><td><img style="padding: 20px;" src="../images/circle_cw.gif"><td></td><img style="padding: 20px;" src="../images/circle_ccw.gif"></td></tr>
+<tr><td><img style="padding: 20px;" src="extras/Documentation/images/circle_cw.gif"><td></td><img style="padding: 20px;" src="extras/Documentation/images/circle_ccw.gif"></td></tr>
 
 <tr><td>Rotate Arm:</td></tr>
-<tr><td><img style="padding: 20px;" src="../images/rotate_cw.gif"><td></td><img style="padding: 20px;" src="../images/rotate_ccw.gif"></td></tr>
+<tr><td><img style="padding: 20px;" src="extras/Documentation/images/rotate_cw.gif"><td></td><img style="padding: 20px;" src="extras/Documentation/images/rotate_ccw.gif"></td></tr>
 </table>
 
 ## Using the Library for your Sketch
@@ -132,7 +132,7 @@ The tests for gestures go from more to less complex, so the test for circular mo
 
 At the start, we assume our data really represents a more or less perfect circle:
 
-![](../images/circle_points.png)
+![](extras/Documentation/images/circle_points.png)
 
 The first thing to know should be the radius and the center point of the circle. To find them,
 we pick a number of representative (sample) points (`GESTURE_CIRCLE_SAMPLES`) to save the arduino some work.
