@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map For MyoBridge
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MyoIMUGestureController				KEYWORD1
+GestureType			KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ARM_UP				LITERAL1
+ARM_DOWN				LITERAL1
+ARM_LEFT 			LITERAL1
+ARM_RIGHT			LITERAL1
+ARM_CIRCLE_CW		LITERAL1
+ARM_CIRCLE_CCW 		LITERAL1
+ARM_ROTATE_CW			LITERAL1
+ARM_ROTATE_CCW				LITERAL1
+ARM_UNKNOWN			LITERAL1
+
