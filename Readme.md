@@ -96,6 +96,12 @@ You can now receive gesture data and lock/unlock events from the two callback fu
 `updateControls()` and `updateLockOutput()`. You can also have a look at the example sketch
 provided with this library. That's it!
 
+# Software Structure
+
+The diagram below visualizes the overall software structure when using this library:
+
+![](extras/Documentation/images/application_structure.png)
+
 # How it works
 
 ## Usage of the MyoBridge Library
