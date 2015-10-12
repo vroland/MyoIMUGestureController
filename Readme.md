@@ -90,8 +90,8 @@ void updateLockOutput(bool locked);
 MyoIMUGestureController::begin(bridge, updateControls, updateLockOutput);
 ```
 
-*After that, it is not recommended to use the MyoBridge objects for anything other than
-simple reads or vibration commands!* (See how it works for details)
+*After that, it is not recommended to use the MyoBridge object for anything other than
+simple reads or vibration commands!* (See *How it works* for details)
 You can now receive gesture data and lock/unlock events from the two callback functions,
 `updateControls()` and `updateLockOutput()`. You can also have a look at the example sketch
 provided with this library. That's it!
